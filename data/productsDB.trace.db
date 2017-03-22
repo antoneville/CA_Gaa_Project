@@ -1,3 +1,24 @@
+<<<<<<< HEAD
 2017-03-22 16:53:43 jdbc[4]: exception
 org.h2.jdbc.JdbcSQLException: Table "PLAY_EVOLUTIONS" not found; SQL statement:
 select id, hash, apply_script, revert_script, state, last_problem from play_evolutions where state like 'applying_%' [42102-192]
+=======
+2017-03-19 13:30:09 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "PLAY_EVOLUTIONS" not found; SQL statement:
+select id, hash, apply_script, revert_script, state, last_problem from play_evolutions where state like 'applying_%' [42102-192]
+2017-03-19 14:46:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "PID" not found; SQL statement:
+SELECT * FROM PID [42102-192]
+2017-03-19 14:46:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "/[*]"; SQL statement:
+/ [42000-192]
+2017-03-19 14:51:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * PLAYER[*] "; SQL statement:
+select * player [42000-192]
+2017-03-19 14:51:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * PLAYER[*] "; SQL statement:
+select * player [42000-192]
+2017-03-19 14:51:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * PLAYER[*] "; SQL statement:
+select * player [42000-192]
+>>>>>>> origin/master

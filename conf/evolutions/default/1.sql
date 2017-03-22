@@ -16,7 +16,10 @@ create table player (
   yellows                       integer,
   blacks                        integer,
   reds                          integer,
+<<<<<<< HEAD
   tid                           varchar(255),
+=======
+>>>>>>> origin/master
   constraint pk_player primary key (pid)
 );
 

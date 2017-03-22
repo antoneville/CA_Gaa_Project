@@ -36,12 +36,20 @@ public class Player extends Model {
     private int blacks;
     @Constraints.Required
     private int reds;
+<<<<<<< HEAD
     @Constraints.Required
     private String tid;
     public Player() {
     }
 
     public Player(String pid, String fname, String lname, int age, String pos, int apps, String club, int points, int yellows, int blacks, int reds, String tid) {
+=======
+
+    public Player() {
+    }
+
+    public Player(String pid, String fname, String lname, int age, String pos, int apps, String club, int points, int yellows, int blacks, int reds) {
+>>>>>>> origin/master
         this.pid = pid;
         this.fname = fname;
         this.lname = lname;
@@ -53,7 +61,10 @@ public class Player extends Model {
         this.yellows = yellows;
         this.blacks = blacks;
         this.reds = reds;
+<<<<<<< HEAD
 	this.tid = tid;
+=======
+>>>>>>> origin/master
     }
 
     public String getPid() {
@@ -143,6 +154,7 @@ public class Player extends Model {
     public void setReds(int reds) {
         this.reds = reds;
     }
+<<<<<<< HEAD
 
     public String getTid() {
         return tid;
@@ -157,4 +169,7 @@ public class Player extends Model {
     public static List<Player> findAll() {
 	return Player.find.all();
 }   
+=======
+    
+>>>>>>> origin/master
 }
