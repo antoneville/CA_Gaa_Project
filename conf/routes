@@ -5,6 +5,7 @@ GET	/		controllers.HomeController.index
 GET	/live		controllers.HomeController.live
 GET	/results	controllers.HomeController.results
 GET	/fixtures	controllers.HomeController.fixtures
+GET	/player		controllers.HomeController.player
 
 
 

@@ -2,8 +2,14 @@ package controllers;
 
 import play.mvc.*;
 import play.data.*;
-
+import play.db.ebean.Transactional;
 import views.html.*;
+
+import java.util.ArrayList;
+import java.util.List;
+import javax.inject.Inject;
+
+import models.*;
 
 /**
  * This controller contains an action to handle HTTP requests
@@ -32,4 +38,10 @@ public class HomeController extends Controller {
     public Result fixtures() {
 	return ok(fixtures.render());
     }
+     
+    public Result player() {
+	List<Player> playersList = Player.findAll(); 
+	return ok(player.render(playersList));
+    }
+
 }
